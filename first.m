@@ -81,5 +81,3 @@ plot(t, m1);
 title("Demodulated singal");
 xlabel("t");
 ylabel("m1(t)");
-
-sgtitle("Suhas.K.V | PES2UG20EC093");
