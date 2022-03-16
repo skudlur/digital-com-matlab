@@ -1,3 +1,5 @@
+%% This is a sampling theorem program
+
 clc;
 clear all;
 close all;
