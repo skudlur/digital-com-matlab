@@ -15,6 +15,8 @@ t = -0.05 : tr : 0.05;
 % Raised Cosine Pulse
 p = (sinc(rb.*t).*cos(pi.*alpha.*rb.*t))/1-(4.*alpha.^2.*rb.^2.*t.^2);
 
+%p = (sinc(rb.*t)).^2; % sinc^2
+
 % Frequency Spectrum
 nfft = length(t);
 nfft = 2^ceil(log2(nfft));
