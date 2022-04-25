@@ -34,7 +34,7 @@ xlabel("Time");
 ylabel("Amplitude");
 
 subplot(2,1,2);
-plot(f,f1);
+plot(f,abs(f1));
 title("Frequency spectrum");
 xlabel("Frequency");
 ylabel("Amplitude");
