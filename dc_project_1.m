@@ -19,7 +19,7 @@ p = (sinc(rb.*t).*cos(pi.*alpha.*rb.*t))/1-(4.*alpha.^2.*rb.^2.*t.^2);
 
 % Frequency Spectrum
 nfft = length(t);
-nfft = 2^ceil(log2(nfft));
+nfft = 2^ceil(log2(nfft)); % radix-2
 f = ((-nfft/2):(nfft/2)-1)/(nfft*tb);
 f1 = fft(p,nfft);
 f1 = fftshift(f1);
